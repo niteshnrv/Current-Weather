@@ -57,7 +57,7 @@ class HomeFragment : Fragment() {
             }
         })
 
-        // homeViewModel.getCurrentWeather(homeViewModel.getCurrentLocation())
+        homeViewModel.getCurrentWeather(homeViewModel.getCurrentLocation())
     }
 
     private fun refreshView(currentWeather: CurrentWeather) {
